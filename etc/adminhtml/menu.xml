@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/menu.xsd">
+    <menu>
+        <add id="CodeAesthetix_School::menu" title="CodeAesthetix" translate="title" module="CodeAesthetix_School" sortOrder="60" resource="CodeAesthetix_School::menu"/>
+        <add id="CodeAesthetix_School::students" title="Students" module="CodeAesthetix_School" parent="CodeAesthetix_School::menu" sortOrder="1" resource="CodeAesthetix_School::students" action="school/student/index"/>
+    </menu>
+</config>
